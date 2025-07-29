@@ -1,4 +1,4 @@
-# BugsBunny: Magento 2 Go To Top Button Module
+# M2Commerce: Magento 2 Go To Top Button Module
 This Magento 2 extension adds a floating **"Go to Top"** button to the frontend of your store. 
 When customers scroll down, the button appears — allowing them to quickly scroll back to the 
 top with a smooth animation. It's fully configurable from the admin panel and supports 
@@ -13,7 +13,7 @@ Fully responsive and works across all themes.
 Uses Magento's native configuration system and frontend architecture.
 
 ## Configuration
-Stores > Configuration > BugsBunny > Go To Top Button.
+Stores > Configuration > M2Commerce > Go To Top Button.
 
 # You will find the following options:
 
@@ -29,7 +29,9 @@ Stores > Configuration > BugsBunny > Go To Top Button.
 
 # Installation
 You can download code from this repo under Magento® 2 following directory:
+```app/code/M2Commerce/GoToTopButton```
 
+<<<<<<< HEAD
 ```
 app/code/BugsBunny/GoToTopButton 
 ```
@@ -37,9 +39,10 @@ Enter following commands to enable the module:
 
 ```
 php bin/magento module:enable BugsBunny_GoToTopButton
+Enter following commands to enable the module:
+```
+php bin/magento module:enable M2Commerce_GoToTopButton
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
-php bin/magento setup:static-content:deploy -f
-php bin/magento cache:clean
 php bin/magento cache:flush
 ```

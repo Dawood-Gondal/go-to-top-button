@@ -28,4 +28,22 @@
             </general>
         </gototopbutton>
     </default>
+<!--
+/**
+ * @category    M2Commerce Enterprise
+ * @package     M2Commerce_YoutubeWidget
+ * @copyright   Copyright (c) 2025 M2Commerce Enterprise
+ * @author      dawoodgondaldev@gmail.com
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<gototopbutton>
+			<general>
+				<active>1</active>
+				<offset>100</offset>
+				</general>
+		</gototopbutton>
+	</default>
 </config>

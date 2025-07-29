@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-	<body>
-		<referenceContainer name="before.body.end">
-			<block class="BugsBunny\GoToTopButton\Block\Button" template="BugsBunny_GoToTopButton::button.phtml" name="gototopbutton" />
-		</referenceContainer>
-	</body>
+<!--
+/**
+ * @category    M2Commerce Enterprise
+ * @package     M2Commerce_YoutubeWidget
+ * @copyright   Copyright (c) 2025 M2Commerce Enterprise
+ * @author      dawoodgondaldev@gmail.com
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="M2Commerce\GoToTopButton\Block\Button" template="M2Commerce_GoToTopButton::button.phtml"
+                   name="gototopbutton"/>
+        </referenceContainer>
+    </body>
 </page>

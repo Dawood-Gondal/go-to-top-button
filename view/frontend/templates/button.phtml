@@ -1,7 +1,22 @@
+<<<<<<< HEAD
 <?php if ($this->isActive()): ?>
     <a href="javascript:void(0)" class="gototopbutton"
        data-mage-init='{"BugsBunny_GoToTopButton/js/button":<?php echo $this->getConfigJson(); ?>}'
        style="display:none">
         <img src="<?php echo $this->getImageUrl(); ?>">
+
+=======
+>>>>>>> 8d28ea5 (Latest Button EXT)
+<?php
+
+use M2Commerce\GoToTopButton\Block\Button;
+
+/** @var Form $block */
+
+if ($this->isActive()): ?>
+    <a href="javascript:void(0)" class="gototopbutton"
+       data-mage-init='{"M2Commerce_GoToTopButton/js/button":<?php echo $this->getConfigJson(); ?>}'
+       style="display:none">
+        <img src="<?= $block->getImageUrl(); ?>" alt="Scroll to Top"/>
     </a>
 <?php endif; ?>

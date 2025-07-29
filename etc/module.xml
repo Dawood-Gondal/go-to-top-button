@@ -1,5 +1,20 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="BugsBunny_GoToTopButton" setup_version="1.0.0"></module>
+=======
+>>>>>>> 8d28ea5 (Latest Button EXT)
+<!--
+/**
+ * @category    M2Commerce Enterprise
+ * @package     M2Commerce_YoutubeWidget
+ * @copyright   Copyright (c) 2025 M2Commerce Enterprise
+ * @author      dawoodgondaldev@gmail.com
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="M2Commerce_GoToTopButton" setup_version="1.0.0"></module>
 </config>

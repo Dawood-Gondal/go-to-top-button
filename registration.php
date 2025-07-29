@@ -1,9 +1,12 @@
 <?php
+<<<<<<< HEAD
 
 use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(ComponentRegistrar::MODULE, 'BugsBunny_GoToTopButton', __DIR__);
 
+=======
+>>>>>>> 8d28ea5 (Latest Button EXT)
 /**
  * @category    M2Commerce Enterprise
  * @package     M2Commerce_OrderComment
@@ -14,4 +17,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'BugsBunny_GoToTopButto
 use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(ComponentRegistrar::MODULE, 'M2Commerce_GoToTopButton', __DIR__);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d28ea5 (Latest Button EXT)

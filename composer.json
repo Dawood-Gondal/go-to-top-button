@@ -1,6 +1,9 @@
 {
+<<<<<<< HEAD
     "name": "bugsbunny/go-to-top-button",
     "description": "Display discount percentage on product price for Magento 2",
+=======
+>>>>>>> 8d28ea5 (Latest Button EXT)
     "name": "m2commerce/go-to-top-button",
     "description": "Display a button to go to top for Magento 2",
     "require": {

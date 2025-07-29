@@ -32,6 +32,7 @@ You can download code from this repo under Magento® 2 following directory:
 ```app/code/M2Commerce/GoToTopButton```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 app/code/BugsBunny/GoToTopButton 
 ```
@@ -40,6 +41,9 @@ Enter following commands to enable the module:
 ```
 php bin/magento module:enable BugsBunny_GoToTopButton
 Enter following commands to enable the module:
+=======
+Enter following commands to enable the module:
+>>>>>>> 8d28ea5 (Latest Button EXT)
 ```
 php bin/magento module:enable M2Commerce_GoToTopButton
 php bin/magento setup:upgrade

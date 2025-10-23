@@ -2,15 +2,15 @@
 declare(strict_types=1);
 
 /**
- * @category    BugsBunny Enterprise
- * @package     BugsBunny_OrderComment
- * @copyright   Copyright (c) 2023 BugsBunny Enterprise
+ * @category    M2Commerce Enterprise
+ * @package     M2Commerce_GoToTopButton
+ * @copyright   Copyright (c) 2023 M2Commerce Enterprise
  * @author      dawoodgondaldev@gmail.com
  */
 
-namespace BugsBunny\GoToTopButton\Block;
+namespace M2Commerce\GoToTopButton\Block;
 
-use BugsBunny\GoToTopButton\Helper\Data;
+use M2Commerce\GoToTopButton\Helper\Data;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Filesystem\DirectoryList;
@@ -25,14 +25,20 @@ class Button extends Template
      * @var Data
      */
     protected Data $helper;
-    /** @var DirectoryList */
 
+    /**
+     * @var DirectoryList
+     */
     protected DirectoryList $directoryList;
-    /** @var StoreManagerInterface */
 
+    /**
+     * @var StoreManagerInterface
+     */
     protected $_storeManager;
-    /** @var Repository */
 
+    /**
+     * @var Repository
+     */
     protected Repository $_assetRepository;
 
     /**
@@ -91,6 +97,6 @@ class Button extends Template
                 return rtrim($this->getBaseUrl(), '/') . '/' . $imageUrl;
             }
         }
-        return $this->_assetRepository->createAsset('BugsBunny_GoToTopButton::images/hehe.png', ['area' => 'frontend'])->getUrl();
+        return $this->_assetRepository->createAsset('M2Commerce_GoToTopButton::images/hehe.png', ['area' => 'frontend'])->getUrl();
     }
 }

@@ -2,13 +2,13 @@
 declare(strict_types=1);
 
 /**
- * @category    BugsBunny Enterprise
- * @package     BugsBunny_OrderComment
- * @copyright   Copyright (c) 2023 BugsBunny Enterprise
+ * @category    M2Commerce Enterprise
+ * @package     M2Commerce_GoToTopButton
+ * @copyright   Copyright (c) 2023 M2Commerce Enterprise
  * @author      dawoodgondaldev@gmail.com
  */
 
-namespace BugsBunny\GoToTopButton\Helper;
+namespace M2Commerce\GoToTopButton\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;
